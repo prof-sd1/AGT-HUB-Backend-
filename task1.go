@@ -17,7 +17,7 @@ func main() {
 	var studentName string
 	var numSubjects int
 
-	fmt.Println("==== Student Grade Calculator ====")
+	fmt.Println(" Student Grade Calculator ")
 
 	// Input: student name
 	fmt.Print("Enter your name: ")
@@ -29,7 +29,7 @@ func main() {
 
 	// Validate number of subjects
 	if numSubjects <= 0 {
-		fmt.Println("❌ Invalid number of subjects.")
+		fmt.Println("Invalid number of subjects.")
 		return
 	}
 
@@ -52,7 +52,7 @@ func main() {
 			if grade >= 0 && grade <= 100 {
 				break
 			} else {
-				fmt.Println("⚠️ Invalid grade. Please enter a value between 0 and 100.")
+				fmt.Println("Invalid grade. Please enter a value between 0 and 100.")
 			}
 		}
 
