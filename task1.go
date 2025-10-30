@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Function to calculate average grade
+// Function to calculate average grade of student 
 func calculateAverage(grades []float64) float64 {
 	var total float64
 	for _, grade := range grades {
