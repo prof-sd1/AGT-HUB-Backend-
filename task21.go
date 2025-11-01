@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// WordFrequency returns a map of word counts (case-insensitive, ignoring punctuation)
+// WordFrequency returns a map of word counts 
 func WordFrequency(text string) map[string]int {
 	wordCount := make(map[string]int)
 
